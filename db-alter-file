@@ -1,0 +1,5 @@
+
+ALTER TABLE `app_settings` ADD `project_start_date` DATE NULL AFTER `log_expiry_days`, ADD `project_end_date` DATE NULL AFTER `project_start_date`;
+
+
+ALTER TABLE `item_description_masters` ADD `orderno` INT NULL AFTER `man_power_type`;
